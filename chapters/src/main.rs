@@ -1,0 +1,41 @@
+mod boxes;
+mod closures;
+mod collections;
+mod control_flow;
+mod enums;
+mod errors;
+mod generics;
+mod hash_maps;
+mod iterators;
+mod lifetimes;
+mod pattern_matching;
+mod rc;
+mod references;
+mod strings;
+mod strings_again;
+mod structs;
+mod trait_objects;
+mod traits;
+mod variables;
+
+fn main() {
+    // variables::run();
+    // control_flow::run();
+    // references::run();
+    // strings::run();
+    // structs::run();
+    // enums::run();
+    // pattern_matching::run();
+    // collections::run();
+    // strings_again::run();
+    // hash_maps::run();
+    // errors::run();
+    // generics::run();
+    // traits::run();
+    // lifetimes::run();
+    // closures::run();
+    // iterators::run();
+    // boxes::run();
+    // rc::run();
+    trait_objects::run();
+}
